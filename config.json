@@ -1,0 +1,30 @@
+{
+  "inbounds": [
+    {
+      "port": 8080,
+      "listen":"::",
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "d9192800-7fa8-4c16-a66f-5ffc812c35ca",
+            "alterId": "0"
+          }
+        ]
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+        "path": "/sxiaonuo"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
